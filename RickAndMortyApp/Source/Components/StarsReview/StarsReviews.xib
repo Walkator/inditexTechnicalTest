@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StarsReviews" customModule="RaMTechTest" customModuleProvider="target">
+            <connections>
+                <outlet property="star1" destination="nih-i2-WdC" id="vBA-ju-Nwy"/>
+                <outlet property="star2" destination="seG-gD-8Mq" id="eJH-WJ-KE6"/>
+                <outlet property="star3" destination="zPW-hd-IUB" id="Ve5-sr-KSL"/>
+                <outlet property="star4" destination="d1j-3s-y86" id="I9B-H6-SVw"/>
+                <outlet property="star5" destination="PCl-0M-KNY" id="Xzh-3G-bFe"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="60"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MeT-f9-9zW">
+                    <rect key="frame" x="0.0" y="0.0" width="368" height="60"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nih-i2-WdC" userLabel="star1">
+                            <rect key="frame" x="0.0" y="19" width="73.666666666666671" height="22"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="star" catalog="system"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="seG-gD-8Mq" userLabel="star2">
+                            <rect key="frame" x="73.666666666666657" y="10" width="73.666666666666657" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="s4G-NY-Jov"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="star" catalog="system"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zPW-hd-IUB" userLabel="star3">
+                            <rect key="frame" x="147.33333333333334" y="19" width="73.333333333333343" height="22"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="star" catalog="system"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1j-3s-y86" userLabel="star4">
+                            <rect key="frame" x="220.66666666666666" y="19" width="73.666666666666657" height="22"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="star" catalog="system"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCl-0M-KNY" userLabel="star5">
+                            <rect key="frame" x="294.33333333333331" y="19" width="73.666666666666686" height="22"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" image="star" catalog="system"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="368" id="Ts4-WF-Myh"/>
+                        <constraint firstAttribute="height" constant="60" id="Z3I-8A-V0z"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="MeT-f9-9zW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="S7b-c6-DQk"/>
+                <constraint firstAttribute="trailing" secondItem="MeT-f9-9zW" secondAttribute="trailing" id="hUy-mW-0K0"/>
+                <constraint firstAttribute="bottom" secondItem="MeT-f9-9zW" secondAttribute="bottom" id="kFo-D9-QFN"/>
+                <constraint firstItem="MeT-f9-9zW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oYt-Va-fpD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-56.488549618320612" y="-300"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star" catalog="system" width="128" height="116"/>
+    </resources>
+</document>

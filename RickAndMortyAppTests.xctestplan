@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "DCC2E677-72FC-4191-8FA5-5D7653F22B19",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:RickAndMortyApp.xcodeproj",
+      "identifier" : "12FECA2A29C4DF6E0053DD7F",
+      "name" : "RickAndMortyApp"
+    },
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

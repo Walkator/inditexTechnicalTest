@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  RickAndMortyApp
+
+  Created by Daniel Aguilar Domínguez on 7/9/23.
+  
+*/
+
+"initial.tab.title" = "Puntua los personajes!";
+"initial.search.placeholder" = "Busca tu personaje favorito";
+
+"characterDetail.table.header" = "Episodes";
